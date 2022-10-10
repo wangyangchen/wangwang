@@ -26,6 +26,7 @@ with open(test_img_flist, "r", encoding="utf-8") as f:
 with open(test_cap_flist, "r", encoding="utf-8") as f:
     for line in f:
         all_cap_list.append(line.replace("\n", ""))
+all_img_list_1k = all_img_list[::5]
 
 def visual_i2t(sims):
     npts = sims.shape[0]
@@ -61,14 +62,14 @@ def visual_t2i(sims):
     npts = sims.shape[1]
     captions_top10 = []
     captions_ranks = []
-
+   
     for index in range(npts):
         temp = []
         for i in range(5):
             inds = np.argsort(sims[5 * index + i])
-            captions_top10.append([all_img_list[j] for j in list(inds[:10])])
+            captions_top10.append([all_img_list_1k[j] for j in list(inds[:10])])
             tmp = np.where(inds == index)[0][0]
-            temp.append(all_img_list[tmp])
+            temp.append(all_img_list_1k[tmp])
         captions_ranks.append(temp)
         
     # <! 保存为 npy文件

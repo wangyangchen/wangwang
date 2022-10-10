@@ -1,3 +1,9 @@
+'''
+# 创建html文件，能够显示
+# image2text_html 图片检索文本的前十结果，左侧为正确的结果，右为前十的结果。
+# text2image_html 文本检索图片，左侧为正确的结果，右侧为前十的结果
+'''
+
 import os
 from html_utils import HTML
 import numpy as np

@@ -1,5 +1,6 @@
 # 一些人的github
 1. wangxu-scu https://github.com/wangxu-scu
+2. https://github.com/FesianXu/AI_Blog
 
 # 一些看过的网址
 1. 浅谈深度学习训练中数据规范化(Normalization)的重要性 https://oldpan.me/archives/use-pytorch-normalization

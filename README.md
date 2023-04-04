@@ -1,3 +1,6 @@
+# 神奇的网站
+1. 看顶会的截稿日期 https://aideadlin.es/?sub=ML,CV,CG,NLP
+
 # 一些人的github
 1. wangxu-scu https://github.com/wangxu-scu
 2. https://github.com/FesianXu/AI_Blog

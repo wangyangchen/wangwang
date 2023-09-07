@@ -15,6 +15,6 @@
 早期的基于哈希的图片检索方法： https://github.com/willard-yuan/hashing-baseline-for-image-retrieval
 多模态哈希方法：https://github.com/czxxjtu/Hash-Learning.github.io
 
-
+博客（有关检索）https://yongyuan.name/blog/
 
 https://github.com/ikuinen/CMIN_moment_retrieval
